@@ -1,7 +1,7 @@
-# terceiro trimestre
+# Terceiro Trimestre
 
-## identificação
-nome: Rebeca Godê Nr,23
+## Identificação
+Nome:Rebeca Godê   Nr. 23
 
- ## Assuntos:  
- HTML,CSS e javaScript
+## Assuntos
+HTML, CSS e JavaScript
