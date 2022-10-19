@@ -40,7 +40,16 @@ function total(){
    let ju = document.getElementById("juros").value;
    if(!Number(val)){
       alert("O valor deve ser um numero.")
+      document.getElementById("valor").value = "";
+      document.getElementById("valor").focus = "";
+
       return
+   }
+   if(!Number(ju)) {
+     alert("O valor dos juros deve ser um numero.")
+     document.getElementById("juros").value = "";
+     document.getElementById("juros").focus = "";
+
    }
    let resultado = (val * (1+ (ju/100)));
    document.write("O resultado é " + resultado);
